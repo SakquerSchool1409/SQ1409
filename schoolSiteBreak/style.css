@@ -15,12 +15,10 @@ body {
     overflow-x: hidden;
 }
 
-.b-elips-m {
-    position: absolute;
-}
 
 @media(width>1024px) {
     .b-elips-m {
+        position: absolute;
         visibility: hidden;
     }
 
@@ -61,6 +59,18 @@ body {
 
     .h2 {
         font-size: 4.5rem;
+    }
+    .button {
+        margin-top: 8vh;
+        background-color: #3B00E7;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 2.8em;
+        padding: 12px 25px;
+        border-radius: 30px;
+        width: 40vw;
+        height: 10vh;
     }
     .p {
         visibility: hidden;
@@ -121,6 +131,18 @@ body {
     .h2 {
         margin-top: 2.5vh;
         font-size: 1.4rem;
+    }
+    .button {
+        margin-top: 8vh;
+        background-color: #3B00E7;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 1.5em;
+        padding: 12px 25px;
+        border-radius: 30px;
+        width: 60vw;
+        height: 8vh;
     }
     .p {
         position: absolute;
