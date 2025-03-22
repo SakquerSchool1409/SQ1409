@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="photo">
+    <file>photo/ШК 1409 Микояна 1этаж-Photoroom 1.png</file>
+    <file>photo/icons8-поиск-500.png</file>
+    <file>photo/белый.png</file>
+  </qresource>
+</RCC>

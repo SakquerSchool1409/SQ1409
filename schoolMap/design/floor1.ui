@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>721</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget {
+background-color: #12141C;
+}</string>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>121</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #5445D0;
+color: white;
+border-radius: 10px;
+text-align: center;
+}</string>
+    </property>
+    <property name="text">
+     <string>2D навигация</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>121</width>
+      <height>33</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #5445D0;
+color: white;
+border-radius: 10px;
+text-align: center;
+}</string>
+    </property>
+    <property name="text">
+     <string>3D навигация</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>220</y>
+      <width>54</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+background-color: #17181D;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}</string>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>10</y>
+       <width>20</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>187</y>
+      <width>54</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+background-color: #17181D;
+}</string>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>10</y>
+       <width>20</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>153</y>
+      <width>54</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+background-color: #17181D;
+}</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>10</y>
+       <width>20</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: white;
+border: none;
+}</string>
+     </property>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>119</y>
+      <width>54</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+background-color: #DDC523;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}</string>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>23</x>
+       <y>10</y>
+       <width>20</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <italic>false</italic>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+border: 0px solid balck;
+text-align: center;
+}</string>
+     </property>
+     <property name="text">
+      <string>1</string>
+     </property>
+     <property name="textFormat">
+      <enum>Qt::AutoText</enum>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>42</x>
+      <y>310</y>
+      <width>54</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+background-color: #17181D;
+border-radius: 13px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>56</x>
+      <y>315</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+border: none;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="qrc/map_style.qrc">:/photo/photo/icons8-поиск-500.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>118</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="qrc/map_style.qrc">:/photo/photo/белый.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="main_holl" native="true">
+    <property name="geometry">
+     <rect>
+      <x>139</x>
+      <y>270</y>
+      <width>91</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+border-bottom-left-radius: 35px;
+border-top-left-radius: 35px;
+}</string>
+    </property>
+    <widget class="QLabel" name="label_25">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>50</y>
+       <width>61</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+border: none;
+text-align: center;
+align-items: center;</string>
+     </property>
+     <property name="text">
+      <string>Главный
+ холл</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="main_holl_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid #724120;
+background-color: #38261E;
+color: #B0B0C6;
+border-bottom-left-radius: 35px
+}
+
+QWidget:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <widget class="QLabel" name="label_22">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>17</y>
+       <width>31</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	color: white;
+	border: none;
+	background: transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>1.08</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_20" native="true">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>258</y>
+      <width>191</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget {
+border: 2px solid white;
+}
+</string>
+    </property>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>141</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+border: none;</string>
+     </property>
+     <property name="text">
+      <string>Кабинет директора</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget_31" native="true">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>70</y>
+      <width>3</width>
+      <height>200</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid white;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_33" native="true">
+    <property name="geometry">
+     <rect>
+      <x>701</x>
+      <y>230</y>
+      <width>3</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid white;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>19</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.17</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>19</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.18</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>19</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.19</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.07</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.06</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.05</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.04</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.03</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_11">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>420</y>
+      <width>73</width>
+      <height>55</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.02</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_12">
+    <property name="geometry">
+     <rect>
+      <x>662</x>
+      <y>390</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+border: 2px solid #724120;
+background-color: #38261E;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #5A361E;
+border: 2px solid #37A4520;
+}</string>
+    </property>
+    <property name="text">
+     <string>1.01</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_13">
+    <property name="geometry">
+     <rect>
+      <x>612</x>
+      <y>350</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #1A2925;
+border: 2px solid #213F2C;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #1F3C2B;
+border: 2px solid #27301F;
+}</string>
+    </property>
+    <property name="text">
+     <string>лестница</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_14">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>160</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #1A2925;
+border: 2px solid #213F2C;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #1F3C2B;
+border: 2px solid #27301F;
+}</string>
+    </property>
+    <property name="text">
+     <string>лестница</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_15">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>300</y>
+      <width>61</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #1A2925;
+border: 2px solid #213F2C;
+color: white;
+font-size: 12px;
+}
+
+QPushButton:hover {
+background-color: #1F3C2B;
+border: 2px solid #27301F;
+}</string>
+    </property>
+    <property name="text">
+     <string>лестница</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>350</y>
+      <width>250</width>
+      <height>3</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Line {
+background-color: white;
+}</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_16">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>258</y>
+      <width>31</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #1A2925;
+border: 2px solid #213F2C;
+color: white;
+font-size: 11px;
+}
+
+QPushButton:hover {
+background-color: #1F3C2B;
+border: 2px solid #27301F;
+}</string>
+    </property>
+    <property name="text">
+     <string>лес
+тни
+ца</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_17">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>130</y>
+      <width>61</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #271B32;
+border: 2px solid #50275A;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #472452;
+border: 2px solid #753280;
+}</string>
+    </property>
+    <property name="text">
+     <string>гар
+дер
+об</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_18">
+    <property name="geometry">
+     <rect>
+      <x>442</x>
+      <y>130</y>
+      <width>61</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #271B32;
+border: 2px solid #50275A;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #472452;
+border: 2px solid #753280;
+}</string>
+    </property>
+    <property name="text">
+     <string>гар
+дер
+об</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_19">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>322</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #15243B;
+border: 2px solid #17355B;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #16355C;
+border: 2px solid #217CE0;
+}</string>
+    </property>
+    <property name="text">
+     <string>туалет</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_20">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>258</y>
+      <width>164</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #323118;
+border: 2px solid #494814;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #524F12;
+border: 2px solid #89830A;
+}</string>
+    </property>
+    <property name="text">
+     <string>служебная зона</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_21">
+    <property name="geometry">
+     <rect>
+      <x>502</x>
+      <y>130</y>
+      <width>41</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #323118;
+border: 2px solid #494814;
+color: white;
+}
+
+QPushButton:hover {
+background-color: #524F12;
+border: 2px solid #89830A;
+}</string>
+    </property>
+    <property name="text">
+     <string>сл.
+ зона</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_22">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>19</y>
+      <width>201</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #371D24;
+border: 2px solid #63282D;
+color: white;
+font-size: 20px;
+}
+
+QPushButton:hover {
+background-color: #582328;
+border: 2px solid #812E32;
+}</string>
+    </property>
+    <property name="text">
+     <string>Столовая</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_23">
+    <property name="geometry">
+     <rect>
+      <x>543</x>
+      <y>130</y>
+      <width>161</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: #371D24;
+border: 2px solid #63282D;
+color: white;
+font-size: 20px;
+}
+
+QPushButton:hover {
+background-color: #582328;
+border: 2px solid #812E32;
+}</string>
+    </property>
+    <property name="text">
+     <string>Библиотека</string>
+    </property>
+   </widget>
+   <zorder>pushButton_22</zorder>
+   <zorder>line</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>widget_3</zorder>
+   <zorder>widget_5</zorder>
+   <zorder>widget_4</zorder>
+   <zorder>widget_6</zorder>
+   <zorder>widget_7</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>main_holl</zorder>
+   <zorder>main_holl_2</zorder>
+   <zorder>widget_20</zorder>
+   <zorder>widget_31</zorder>
+   <zorder>widget_33</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>pushButton_10</zorder>
+   <zorder>pushButton_11</zorder>
+   <zorder>pushButton_12</zorder>
+   <zorder>pushButton_13</zorder>
+   <zorder>pushButton_14</zorder>
+   <zorder>pushButton_15</zorder>
+   <zorder>pushButton_16</zorder>
+   <zorder>pushButton_17</zorder>
+   <zorder>pushButton_18</zorder>
+   <zorder>pushButton_19</zorder>
+   <zorder>pushButton_20</zorder>
+   <zorder>pushButton_21</zorder>
+   <zorder>pushButton_23</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc/map_style.qrc"/>
+ </resources>
+ <connections/>
+</ui>
