@@ -9,7 +9,7 @@ html,
 body {
   margin: 0px;
   height: 100%;
-  /* overflow: hidden;  */
+  overflow: hidden; 
   background-color: #2d2c39;
 }
 
