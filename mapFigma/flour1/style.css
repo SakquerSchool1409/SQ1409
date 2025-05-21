@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root {
+  --to-toilet-down: hidden;
+  --to-bibliotec: hidden;
+  --to-act-zal: hidden;
+}
+
+.body {
+  position: absolute;
+  top: -1892px;;
+}
+
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  transition: 0.5s;
 }
+
 html,
 body {
-  margin: 0px;
+  margin: 0;
   height: 100%;
-  overflow: hidden; 
+  overflow: hidden;
   background-color: #2d2c39;
 }
 
@@ -33,7 +47,7 @@ body {
   width: 410px;
   top: 69px;
   left: 1361px;
-  font-family: "Montserrat-SemiBold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 64px;
@@ -185,7 +199,7 @@ body {
   width: 43px;
   top: 30px;
   left: 78px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -219,7 +233,7 @@ body {
   width: 38px;
   top: 33px;
   left: 1px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 22px;
@@ -251,7 +265,7 @@ body {
   width: 103px;
   top: 29px;
   left: 69px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 19px;
@@ -490,7 +504,7 @@ body {
   width: 142px;
   top: 74px;
   left: 38px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -574,7 +588,7 @@ body {
   width: 100px;
   top: 77px;
   left: 3px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 19px;
@@ -764,7 +778,7 @@ body {
   width: 174px;
   top: 120px;
   left: 54px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -811,7 +825,7 @@ body {
   width: 53px;
   top: 66px;
   left: 58px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -845,7 +859,7 @@ body {
   width: 50px;
   top: 37px;
   left: 44px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -876,7 +890,7 @@ body {
   width: 53px;
   top: 37px;
   left: 46px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -910,7 +924,7 @@ body {
   width: 51px;
   top: 37px;
   left: 45px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -932,7 +946,7 @@ body {
   width: 54px;
   top: 37px;
   left: 45px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -989,7 +1003,7 @@ body {
   width: 90px;
   top: 24px;
   left: 4px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 17px;
@@ -1090,7 +1104,7 @@ body {
   width: 55px;
   top: 766px;
   left: 269px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
@@ -1104,7 +1118,7 @@ body {
   width: 28px;
   top: 721px;
   left: 210px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
@@ -1130,7 +1144,7 @@ body {
 .desktop .text-wrapper-15 {
   top: 122px;
   left: 334px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -1145,7 +1159,7 @@ body {
   top: 506px;
   left: 46px;
   transform: rotate(-90deg);
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 22px;
@@ -1257,7 +1271,7 @@ body {
   top: 803px;
   left: 200px;
   transform: rotate(90deg);
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 15px;
@@ -1390,7 +1404,7 @@ body {
 .desktop .text-wrapper-18 {
   top: 33px;
   left: 32px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -1496,7 +1510,7 @@ body {
   width: 158px;
   top: 19px;
   left: 57px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -1574,7 +1588,7 @@ body {
   top: 35px;
   left: 85px;
   transform: rotate(-90deg);
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 16px;
@@ -1674,7 +1688,7 @@ body {
   width: 46px;
   top: 12px;
   left: 7px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -1713,7 +1727,7 @@ body {
   width: 83px;
   top: 24px;
   left: 8px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 16px;
@@ -2090,6 +2104,9 @@ body {
 }
 
 .desktop .rectangle-84 {
+
+  visibility: var(--to-act-zal);
+
   position: absolute;
   width: 565px;
   height: 1.75px;
@@ -2098,7 +2115,32 @@ body {
   background-color: #ffffff;
 }
 
+.arrow-bibl {
+
+  visibility: var(--to-bibliotec);
+
+  height: 26px;
+
+  position: absolute;
+  left: 803px;
+  top: 391px;
+}
+
+.desktop .rectangle-bibl {
+
+  visibility: var(--to-bibliotec);
+
+  position: absolute;
+  width: 665px;
+  height: 1.75px;
+  top: 415px;
+  left: 146px;
+  background-color: #ffffff;
+}
+
+
 .desktop .rectangle-85 {
+  visibility: var(--to-toilet-down);
   position: absolute;
   width: 429px;
   height: 1.75px;
@@ -2108,15 +2150,10 @@ body {
   transform: rotate(-90deg);
 }
 
-.desktop .arrow-to {
-  position: absolute;
-  width: 15px;
-  height: 70px;
-  top: 347px;
-  left: 139px;
-}
-
 .desktop .arrow {
+
+  visibility: var(--to-act-zal);
+
   position: absolute;
   width: 15px;
   height: 40px;
@@ -2125,6 +2162,7 @@ body {
 }
 
 .desktop .rectangle-86 {
+  visibility: var(--to-toilet-down);
   position: absolute;
   width: 106px;
   height: 1.75px;
@@ -2134,6 +2172,7 @@ body {
 }
 
 .desktop .arrow-2 {
+  visibility: var(--to-toilet-down);
   position: absolute;
   width: 15px;
   height: 21px;
@@ -2169,7 +2208,7 @@ body {
   width: 51px;
   top: 36px;
   left: 43px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 26px;
@@ -2232,7 +2271,7 @@ body {
 .desktop .text-wrapper-26 {
   top: 22px;
   left: 121px;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 24px;
@@ -2264,7 +2303,7 @@ body {
   width: 307px;
   top: 0;
   left: 19px;
-  font-family: "Montserrat-Medium", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2287,7 +2326,7 @@ body {
 .desktop .text-wrapper-28 {
   top: 471px;
   left: 105px;
-  font-family: "Montserrat-Medium", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2301,7 +2340,7 @@ body {
   width: 223px;
   top: 238px;
   left: 110px;
-  font-family: "Montserrat-Medium", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2325,7 +2364,7 @@ body {
   width: 166px;
   top: 339px;
   left: 139px;
-  font-family: "Montserrat-Medium", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 500;
   color: #ffffff;
   font-size: 24px;
@@ -2386,7 +2425,7 @@ body {
 .desktop .text-wrapper-31 {
   top: 19px;
   left: 138px;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 26px;
@@ -2399,7 +2438,7 @@ body {
 .desktop .text-wrapper-32 {
   top: 115px;
   left: 101px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #c5c2c2;
   font-size: 26px;
@@ -2451,7 +2490,7 @@ body {
   width: 410px;
   top: 0;
   left: 0;
-  font-family: "Montserrat-SemiBold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 64px;
@@ -2475,7 +2514,7 @@ body {
 .right .div-m {
   top: 39px;
   left: 123px;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 32px;
@@ -2488,7 +2527,7 @@ body {
 .right .text-wrapper-two {
   top: 226px;
   left: 101px;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 400;
   color: #c5c2c2;
   font-size: 26px;
@@ -2523,22 +2562,20 @@ body {
 }
 
 .right .div-wrapper-m {
-  width: 115px;
+  width: 113px;
   height: 79px;
   top: 0;
   left: 0;
   background-color: #4e3d7d;
-  border: 0.5px solid;
   position: absolute;
   border-radius: 30px;
-  border-color: #000000;
 }
 
 .right .text-wrapper-three {
   top: 20px;
-  left: 50px;
+  left: 48px;
   position: absolute;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 32px;
@@ -2551,7 +2588,7 @@ body {
   top: 98px;
   left: 48px;
   position: absolute;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 32px;
@@ -2564,7 +2601,7 @@ body {
   top: 178px;
   left: 48px;
   position: absolute;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 32px;
@@ -2577,7 +2614,7 @@ body {
   top: 256px;
   left: 46px;
   position: absolute;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 32px;
@@ -2601,7 +2638,7 @@ body {
 .right .text-wrapper-seven {
   top: 26px;
   left: 22px;
-  font-family: "Montserrat-Bold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 14px;
@@ -2626,7 +2663,6 @@ body {
 .right .text-wrapper-eight {
   top: 36px;
   left: 16px;
-  font-family: "Montserrat-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 14px;
@@ -2651,7 +2687,6 @@ body {
 .right .text-wrapper-nine {
   top: 8px;
   left: 18px;
-  font-family: "Montserrat-Bold", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 24px;
@@ -2659,4 +2694,71 @@ body {
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+
+.model {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+
+  display: none;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.part-model {
+  /*position: absolute;*/
+  margin-top: 159px;
+  color: white;
+  width: 400px;
+  height: 700px;
+  background-color: #4E3D7D;
+  align-items: center;
+  padding-inline: 20px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.h-model {
+  font-size: 3rem;
+}
+
+.main-model {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.img-model {
+  height: 188px;
+  width: 124px;
+}
+
+.p-model {
+  font-size: 1.5rem;
+}
+
+.button-model {
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.5rem;
+  margin-top: 150px;
+
+  color: white;
+  background-color: #755AA2;
+
+  width: 250px;
+  height: 83px;
+}
+
+.button-model:hover {
+  background-color: #292140;
 }
