@@ -2762,9 +2762,3 @@ body {
 .button-model:hover {
   background-color: #292140;
 }
-
-@media (width < 1024px) {
-   body {
-    overflow: auto;
-   }
-}
